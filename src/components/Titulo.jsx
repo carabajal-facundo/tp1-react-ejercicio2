@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Titulo = () => {
+const Titulo = (props) => {
     return (
         <h1>
-           Hola mundo!!
+           Hola {props.tituloAmigo}!!
         </h1>
     );
 };
